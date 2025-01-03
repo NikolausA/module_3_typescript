@@ -1,4 +1,9 @@
-import { TEST, calculatePrice } from "./calculatePrice.js";
+import { calculatePrice } from "./calculatePrice.js";
 
-console.log("Answer: ", TEST);
-// console.log("Answer: ", calculatePrice);
+const price = calculatePrice({
+  price: 100000,
+  discount: 25,
+  isInstallment: true,
+  months: 12,
+});
+console.log(price);
