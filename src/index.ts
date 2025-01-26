@@ -10,5 +10,5 @@ const price = calculatePrice({
 });
 console.log(price);
 
-const normalizePosts = normalizeData(posts);
+const normalizePosts = normalizeData(posts, "id");
 console.log(normalizePosts);
